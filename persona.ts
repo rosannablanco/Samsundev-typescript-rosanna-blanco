@@ -61,20 +61,6 @@ export class Persona {
     let telf = new Telefono(t, n);
     this._telefono.push(telf);
   }
- 
- /**/
- imprimirDatos():void{
-    console.log(this._nombreCompleto);
-    for (let i = 0; i < this.direccion.length; i++) {
-      console.log(this.direccion[i].direccionCompleta); 
-    }
-    for (let i = 0; i < this.telefono.length; i++) {
-      console.log(`${this.telefono[i].telefonoCompleto}`); 
-    }
-    for (let i = 0; i < this.email.length; i++) {
-      console.log(this.email[i].emailCompleto); 
-    }
-  } 
 }
 
 
